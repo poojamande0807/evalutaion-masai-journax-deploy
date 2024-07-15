@@ -1,0 +1,826 @@
+body {
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Inter Tight, sans-serif';
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.menu {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.app-name {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.subscribe {
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    padding: 0 5px;
+
+}
+
+.navbar-2 {
+    text-align: center;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 10px;
+}
+
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.menu {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -40%;
+    width: 40%;
+    height: 100%;
+    background: #c4e0fb;
+    transition: left 0.3s ease;
+    z-index: 1000;
+
+}
+
+.overlay.open {
+    left: 0;
+}
+
+.overlay-content {
+    color: black;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.overlay-content ul {
+    list-style: none;
+    margin-top: 100px;
+
+}
+
+.overlay-content ul li {
+    margin-top: 10px;
+
+}
+
+.close-btn {
+    font-size: 44px;
+    color: black;
+    float: right;
+    cursor: pointer;
+}
+
+
+.app-name {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.subscribe {
+    border-left: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    padding: 0 5px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 30%
+}
+
+.btn {
+    border: 1px solid gainsboro;
+    padding: 6px 14px;
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.left-title {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 130%;
+    font-family: 'Inter Tight, sans-serif';
+
+}
+
+.left-info {
+    margin-top: auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+    font-family: 'Inter Tight, sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.bottom-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.line {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    width: 14px;
+    height: 1px;
+}
+
+.right-section {
+    flex: 70%;
+
+}
+
+.right-section img {
+    width: 100%;
+    height: auto;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.card-details {
+    margin: 15px;
+    flex: 1 1 calc(33.33% - 30px);
+    box-sizing: border-box;
+}
+
+.card-details img {
+    max-width: 100%;
+}
+
+
+.editors-section-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.editors-section-card {
+    flex: 1 1 calc(25% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ec-img img {
+    width: 100%;
+    height: auto;
+
+}
+
+.ec-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.ec-category {
+    font-size: 14px;
+    color: #888;
+}
+
+
+.scotty-background-container {
+    background-image: url('https://cdn.prod.website-files.com/667bd81876339d31af9381fa/667eb128538b017fc4bfc5d0_news-main-15.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.sc-info-box {
+    width: 90%;
+    max-width: 550px;
+    min-height: 300px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.inner-info {
+    padding: 20px;
+    /* Base padding */
+}
+
+.sc-info {
+    font-family: 'Inter Tight, sans-serif';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.fn-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center items */
+    padding: 20px;
+    /* Base padding */
+}
+
+.news-line {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    width: 14px;
+    height: 1px;
+    margin: 0 10px;
+}
+
+
+.wn-section-title {
+    margin-top: 50px;
+}
+
+
+.staff-writers-section {
+    width: 100%;
+    /* padding: 20px; */
+    margin-bottom: 80px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+}
+
+.section-icon {
+    width: 50px;
+    height: 35px;
+    margin-right: 10px;
+    margin: 10px 0;
+
+}
+
+.section-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.author-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.author-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.staff-img {
+    position: relative;
+}
+
+.staff-img img {
+    width: 100%;
+}
+
+.staff-img-info {
+    margin-top: 10px;
+}
+
+.staff-img-name {
+    font-weight: bold;
+}
+
+
+.cta-wrap {
+    display: flex;
+    margin: 80px 0;
+    flex-wrap: wrap;
+}
+
+.cta-left,
+.cta-right {
+    flex: 1;
+    margin: 10px;
+}
+
+.cta-left {
+    background-color: #c4e0fb;
+    border-radius: 4px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.cta-right {
+    background-color: #fbe8c4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px 100px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.cta-input {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subscribe-btn {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.876);
+    color: #fff;
+    width: 150px;
+}
+
+
+.footer {
+
+    background-color: #1d1d1d;
+
+    color: #fff;
+
+    padding: 20px 0;
+
+}
+
+.footer .container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+
+    margin: 0 auto;
+
+    padding: 0 10px;
+
+}
+
+.footer .column {
+
+    flex: 1;
+
+    min-width: 200px;
+
+    margin: 10px 0;
+
+}
+
+.footer h3 {
+
+    margin-bottom: 10px;
+
+}
+
+.footer a {
+
+    color: #bbb;
+
+    text-decoration: none;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+.footer a:hover {
+
+    color: #fff;
+
+}
+
+.social-icons {
+
+    display: flex;
+
+}
+
+.footer .social-icons a {
+
+    font-size: 18px;
+
+}
+
+.copywrite {
+    padding: 0 10px;
+}
+
+
+.last-footer {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+
+    .navbar-2 {
+        display: none;
+        text-align: center;
+        background-color: #fff;
+        padding: 10px 0;
+    }
+
+    .middle-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .nav-info-link {
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 5px 10px;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .left-section {
+        flex: 100%;
+        order: 2;
+    }
+
+    .left-section .content {
+        margin-top: 10px;
+    }
+    .bottom-info {
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+    .line {
+        margin: 0 5px;
+    }
+    .right-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-title {
+        font-size: 2rem;
+    }
+
+    .left-info {
+        font-size: 0.9rem;
+    }
+
+    .card-details {
+        flex: 1 1 calc(50% - 30px);
+    }
+
+    .editors-section-card {
+        flex: 1 1 calc(50% - 10px);
+
+    }
+
+    .ec-img img {
+        height: 250px;
+    }
+
+
+    /* scotty-section */
+
+    .inner-info {
+        width: 95%;
+        padding: 10px;
+        height: 300px;
+    }
+
+    .inner-info {
+        padding: 15px;
+    }
+
+    .cta-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .cta-left,
+    .cta-right {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .cta-right {
+        padding: 20px;
+    }
+
+    .cta-input,
+    .subscribe-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .card-details {
+        flex: 1 1 100%;
+    }
+
+    .editors-section-card {
+        width: 100%;
+        min-width: calc(50%-10px);
+        flex: 1 1 100%;
+    }
+
+    .ec-img img {
+        height: 250px;
+    }
+
+    .overlay-content {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+
+    .cta-left,
+    .cta-right {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .cta-input,
+    .subscribe-btn {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .editors-section-card {
+        flex: 1 1 100%;
+    }
+
+    .cta-left,
+    .cta-right {
+        padding: 10px;
+    }
+
+    .cta-input,
+    .subscribe-btn {
+        padding: 8px;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+    .sc-info {
+        font-size: 14px;
+
+    }
+
+    .sc-info-box {
+        padding: 5px;
+        min-height: 200px;
+    }
+
+    .last-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* menu responsive */
+.for-mobile-nav-bar {
+    display: none;
+}
+
+.mobile-nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+
+.mobile-nav-bar .logo img {
+    height: 40px;
+}
+
+.mobile-nav-bar input[type="checkbox"] {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    flex-direction: column;
+
+}
+
+.mobile-menu li {
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.mobile-menu li a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.mobile-menu li a:hover {
+    background-color: #888;
+}
+
+.open-menu,
+.close-menu {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.close-menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+@media (max-width:768px) {
+    .cards-section-world-news{
+        margin: 10px 10px;
+    }
+    .open-menu i {
+        margin-right: 30px;
+    }
+
+    .app-name {
+        font-size: 30px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .mobile-cart-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-cart {
+
+        padding: 20px;
+    }
+
+    #for-mobile-nav-bar {
+        display: block;
+    }
+
+    .mobile-nav-bar {
+
+        position: static;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        color: black;
+    }
+
+    #check:checked~.mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 999;
+    }
+
+    #check:checked~.open-menu {
+        display: none;
+    }
+
+    #check:checked~.close-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .menu-mobile {
+        display: none;
+    }
+
+}
